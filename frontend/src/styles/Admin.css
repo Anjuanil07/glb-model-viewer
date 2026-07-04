@@ -1,0 +1,57 @@
+.admin-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.admin-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.upload-form input,
+.upload-form textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.upload-form button {
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-form button:hover {
+  background-color: #1d4ed8;
+}
+
+.models-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.models-table th,
+.models-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.models-table th {
+  background-color: #f3f4f6;
+}
+
+.action-btn {
+  margin: 0 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
