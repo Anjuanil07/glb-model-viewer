@@ -7,8 +7,12 @@ dotenv.config();
 
 const app = express();
 
-// Middleware
-app.use(cors());
+import cors from "cors";
+
+app.use(cors({
+  origin: "https://glb-model-viewer-three.vercel.app"
+}));
+
 app.use(express.json());
 
 // Test Route
